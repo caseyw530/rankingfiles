@@ -9,6 +9,9 @@ and, more importantly, I am sharing my process. The proprietary nature of other 
 show you the 'best schools' based off these like peer rankings, something which many typical students may not even care about.
 Thus, this app can be used to search with some knowledge of what you are searching for.
 
+The app.R file is designed on the server-UI model used by shinyapp in R. Make sure to have all the packages whose libraries
+are implemented downloaded when using these files. shinyapp.R prepares the data and writes the function that the app uses.
+
 All data used in the app.R file come with this repository. However, if you want to work through the data cleaning yourself, 
 you will need to download the Department of Education's College  Scorecard data, for those files were too large to upload to 
 GitHub. However, the cleaned version of that can be found in usedata.csv. shinyapp.R is commented to explain the thought 
